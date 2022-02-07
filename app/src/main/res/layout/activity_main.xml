@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BD104C"
+    android:background="#E8D5DC"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/gameScore"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#BD104C"
+        android:background="#FAFAFA"
         android:gravity="center"
         android:padding="25dp"
         android:text="Score: 0"
-        android:textColor="@color/white"
+        android:textColor="#000000"
         android:textSize="25dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,18 +30,18 @@
         app:layout_constraintTop_toBottomOf="@id/gameScore">
 
         <View
-            android:id="@+id/orangeBlock"
+            android:id="@+id/redBlock"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FF9800" />
+            android:background="#FF1100" />
 
         <View
             android:id="@+id/blueBlock"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#2196F3" />
+            android:background="#1165A8" />
     </LinearLayout>
 
     <LinearLayout
@@ -58,14 +58,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#F6B900" />
+            android:background="#FBBD00" />
 
         <View
             android:id="@+id/greenBlock"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#8BC34A" />
+            android:background="#0BBD11" />
     </LinearLayout>
 
     <Button

@@ -10,6 +10,7 @@ import androidx.lifecycle.Observer
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+    var timeCounter = 0
     private var index = 0
     private var currentColor = Color.GRAY
     private val list = arrayListOf<View>()
@@ -27,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //Adding Index inside list
-        list.add(orangeBlock)
+        list.add(redBlock)
         list.add(blueBlock)
         list.add(yellowBlock)
         list.add(greenBlock)
@@ -35,35 +36,49 @@ class MainActivity : AppCompatActivity() {
 //       Start Playing Game After Click on Play Button
         playButton.setOnClickListener {
             isGameOver = false
+            timeCounter = 0
+//            timeCounterIncrease()
             playGame()
+            if (timeCounter > 1) {
+                gameOver()
+            }
 //            while (!isGameOver){
 //                playGame()
 //            }
         }
+        if (timeCounter > 1) {
+            gameOver()
+        }
 
-
-        orangeBlock.setOnClickListener {
+        redBlock.setOnClickListener {
+            timeCounter = 0
             if (listOfClickable[0]) {
                 liveScore.incrementByOne()
             } else {
                 gameOver()
             }
         }
+
         blueBlock.setOnClickListener {
+            timeCounter = 0
             if (listOfClickable[1]) {
                 liveScore.incrementByOne()
             } else {
                 gameOver()
             }
         }
+
         yellowBlock.setOnClickListener {
+            timeCounter = 0
             if (listOfClickable[2]) {
                 liveScore.incrementByOne()
             } else {
                 gameOver()
             }
         }
+
         greenBlock.setOnClickListener {
+            timeCounter = 0
             if (listOfClickable[3]) {
                 liveScore.incrementByOne()
             } else {
@@ -81,12 +96,16 @@ class MainActivity : AppCompatActivity() {
 
     //Function For Play Game
     private fun playGame() {
+        if (timeCounter > 1) {
+            gameOver()
+        }
+//        timeCounter=0
         index = (0..3).random()
 
 //       Making View Clickable and Gray
         when (index) {
             0 -> {
-                currentColor = Color.parseColor("#FF9800")
+                currentColor = Color.parseColor("#FF1100")
 //                listOfClickable=makeViewClickable(arrayListOf(isClickable1,isClickable2,isClickable3,isClickable4))
                 listOfClickable[0] = true
                 listOfClickable[1] = false
@@ -94,7 +113,7 @@ class MainActivity : AppCompatActivity() {
                 listOfClickable[3] = false
             }
             1 -> {
-                currentColor = Color.parseColor("#2196F3")
+                currentColor = Color.parseColor("#1165A8")
 //                listOfClickable=makeViewClickable(arrayListOf(isClickable2,isClickable1,isClickable3,isClickable4))
                 listOfClickable[0] = false
                 listOfClickable[1] = true
@@ -102,7 +121,7 @@ class MainActivity : AppCompatActivity() {
                 listOfClickable[3] = false
             }
             2 -> {
-                currentColor = Color.parseColor("#F6B900")
+                currentColor = Color.parseColor("#FBBD00")
 //                listOfClickable=makeViewClickable(arrayListOf(isClickable3,isClickable2,isClickable1,isClickable4))
                 listOfClickable[0] = false
                 listOfClickable[1] = false
@@ -110,7 +129,7 @@ class MainActivity : AppCompatActivity() {
                 listOfClickable[3] = false
             }
             3 -> {
-                currentColor = Color.parseColor("#8BC34A")
+                currentColor = Color.parseColor("#0BBD11")
 //                listOfClickable=makeViewClickable(arrayListOf(isClickable4,isClickable2,isClickable3,isClickable1))
                 listOfClickable[0] = false
                 listOfClickable[1] = false
@@ -118,10 +137,12 @@ class MainActivity : AppCompatActivity() {
                 listOfClickable[3] = true
             }
         }
+
         if (!isGameOver) {
             list[index].setBackgroundColor(Color.GRAY)
             Handler().postDelayed(Runnable {
                 list[index].setBackgroundColor(currentColor)
+                timeCounter++
                 playGame()
             }, 1000)
         }
@@ -136,6 +157,7 @@ class MainActivity : AppCompatActivity() {
             .show()
         isGameOver = true
         score = 0
+        timeCounter = 0
         liveScore.resetScore()
     }
 
@@ -147,5 +169,14 @@ class MainActivity : AppCompatActivity() {
         views[3] = false
 //        listOfClickable=views
         return temp
+    }
+
+    //    Function To Check If User is Clicking or not in every Seconds
+    private suspend fun timeCounterIncrease() {
+        timeCounter = 0
+        Handler().postDelayed(Runnable {
+            timeCounter++
+//            timeCounterIncrease()
+        }, 1000)
     }
 }
