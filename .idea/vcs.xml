@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BASIS_Assignment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MASAI Course repo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Saveo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Sedin_Assignment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 09/Day-02/Activity LifeCycle_WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 09/Day-02/Activity LifeCycle_YOU" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 09/Day-02/Android Activity and its Lifecycle/Analyse the Lifecycle methods" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 09/Day-02/Android Activity and its Lifecycle/Display Toast message" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-01/Layouts_WE/Layout_1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-01/Layouts_YOU" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-01/Views and Layouts/Facebook Login page" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-01/Views and Layouts/Flight Ticket booking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-01/Views and Layouts/Login Screen Design" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-01/Views and Layouts/Phone Insurance Renewal Layout" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-01/Views and Layouts/Playstore screen design" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-02/Event Listeners and Save UI States" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-02/Event Listeners and Save UI States_WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-02/Event Listeners and Save UI States_YOU" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-03/Intents and Intent Filters/Fill the form" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-03/Intents and Intent Filters/Open Custom Activity from App Selector Screen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-03/Intents and Intent Filters/Send mail" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-03/Intents and Intent Filters/Validate user credentials and perform Login" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-03/Intents and Intent Filters_WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-04/Resources_WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-04/Resources_YOU" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-04/Scroll View and Resources/Kaksha sign up" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-04/Scroll View and Resources/Schedule Meeting UI" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-04/Scroll View and Resources/Topics of Interest Layout" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-05/Constraint Layouts_WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-05/Constraint Layouts_YOU" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 10/Day-06/Task Management" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 11/Day-01/Unit-II Sprint-2 Coding/FT-AND-03 U-2 C-1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 11/Day-02/Permissions_WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 11/Day-02/Permissions_YOU/Event Booking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 11/Day-03/RecyclerView_WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 11/Day-03/RecyclerView_YOU/Animal Details" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 11/Day-03/RecyclerView_YOU/Article Scrolling with Recyclerview" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 11/Day-03/RecyclerView_YOU/Idendity card" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 11/Day-04/Recycler View - II_WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 11/Day-04/Recycler View - II_YOU/Birds grid view" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 11/Day-04/Recycler View - II_YOU/Idendity card problem continuation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 12/Day-02/Recycler View - III_YOU/Notify Adapter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 12/Day-02/RecyclerView III _WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 12/Day-03/Recycler View - IV_WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 12/Day-04/Retrofit - I _WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 12/Day-05/Retrofit - II_WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 13/Day-01/Unit-II Sprint-4 Coding" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 13/Day-02/ShopClues-Shopping-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 13/ShopClues Clone" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 14/Day-03/Retrofit - III Upload Image" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 14/Day-03/Retrofit -III Upload Video" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 14/Day-04/Broadcast Receivers/Receive name and age" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 14/Day-04/Broadcast Receivers/Send Broadcast between Apps" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 14/Day-04/Broadcast Receivers/Send Broadcast within the app with security considerations" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 14/Day-04/Broadcast Receivers_WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 14/Day-05/Fragments/Load github profiles in a RecyclerView" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 14/Day-05/Fragments/Static Fragments" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 14/Day-05/Fragments_WE/Load ten Animals profile in a Fragment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 15/Day-01/Dynamic Fragment_WE/Analyse the fragment transaction methods" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 15/Day-01/Dynamic Fragment_YOU/Dynamic Fragments" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 15/Day-02/Fragments Communication/Events" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 15/Day-02/Fragments Communication/Total Apple Count" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 15/Day-02/Fragments Communication_WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 15/Day-03/ViewPager/ViewPager with Tabs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 15/Day-03/ViewPager/ViewPager with circle indicator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 15/Day-03/ViewPager_WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 15/Day-04/Threads_WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 15/Day-04/Threads_YOU" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 15/Day-05/Threads - II_WE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 15/Day-06/MyApplication" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 15/Day-06/Tik-Tok Clone" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 18/MFine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 19/Teacher's day" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 23/Sarang-Spotify-Clone" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 28/Day-01/Podcastly" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 30/Day-05/SaloonBookingApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 30/Day-05/test-2401-q-ba0bfe9a6fbf44099a18ca8e715f7cc9-81867-android-kotlin-min15-target28-starter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Week 30/Day-05/test-2401-q-ba0bfe9a6fbf44099a18ca8e715f7cc9-81867-android-kotlin-min29-target30-starter" vcs="Git" />
+  </component>
+</project>
